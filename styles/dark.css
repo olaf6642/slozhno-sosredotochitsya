@@ -10,6 +10,14 @@
       background-image: url(../images/cover-image-dark.png);
     }
 
+    .page .title-decor {
+      background-color: var(--accent-color);
+      color: var(--bg-color);
+    }
+
+    .page .section__title {
+      color: var(--accent-color);
+    }
   }
 
 .page.theme_dark {
@@ -21,3 +29,11 @@
   background-image: url(../images/cover-image-dark.png);
 }
 
+.page.theme_dark .title-decor {
+  background-color: var(--accent-color);
+  color: var(--bg-color);
+}
+
+.page.theme_dark .section__title {
+  color: var(--accent-color);
+}

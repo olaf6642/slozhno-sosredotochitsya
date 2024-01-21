@@ -17,6 +17,15 @@
      .page.theme_dark .decorate-rec {
       display: block;
      }
+
+     .page .title-decor {
+      background-color: var(--accent-color);
+      color: var(--main-text-color);
+    }
+
+    .page .section__title {
+      color: var(--main-text-color);
+    }
   }
 
 .page.theme_light {
@@ -30,4 +39,13 @@
 
 .page.theme_light .decorate-rec {
  display: none;
+}
+
+.page.theme_light .title-decor {
+  background-color: var(--accent-color);
+  color: var(--main-text-color);
+}
+
+.page.theme_light .section__title {
+  color: var(--main-text-color);
 }
