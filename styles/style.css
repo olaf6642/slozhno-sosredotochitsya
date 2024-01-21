@@ -308,6 +308,7 @@
 
 .footer__title {
   text-shadow: 2px 2px 0px var(--main-title-shadow);
+  margin-left: 0;
 }
 
 @media (width <=768px) {
@@ -354,10 +355,6 @@
     margin-block-end: 40px;
   }
 
-  .header__title {
-    margin-left: 0;
-  }
-
   .decorated-zone {
     padding: 10px;
     grid-template-areas:
@@ -382,6 +379,7 @@
   }
 
   .header__title {
+    margin-left: 0;
     font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   }
 
