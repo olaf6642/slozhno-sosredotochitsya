@@ -5,20 +5,21 @@
     --main-title-shadow: #ff0070;
     --bg-color: #000028;
     --accent-color: #ff0070;
-    }
-    .page {
-      background-image: url(../images/cover-image-dark.png);
-    }
-
-    .page .title-decor {
-      background-color: var(--accent-color);
-      color: var(--bg-color);
-    }
-
-    .page .section__title {
-      color: var(--accent-color);
-    }
   }
+
+  .page {
+    background-image: url(../images/cover-image-dark.png);
+  }
+
+  .page .title-decor {
+    background-color: var(--accent-color);
+    color: var(--bg-color);
+  }
+
+  .page .section__title {
+    color: var(--accent-color);
+  }
+}
 
 .page.theme_dark {
   --main-text-color: #F1B2CE;

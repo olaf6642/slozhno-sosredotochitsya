@@ -5,28 +5,29 @@
     --main-title-shadow: #ff0070;
     --bg-color: #FFF1F7;
     --accent-color: #FF8DCB;
-    }
-    .page {
-      background-image: url(../images/cover-image-light.png);
-    }
-
-    .page .decorate-rec {
-      display: none;
-     }
-     
-     .page.theme_dark .decorate-rec {
-      display: block;
-     }
-
-     .page .title-decor {
-      background-color: var(--accent-color);
-      color: var(--main-text-color);
-    }
-
-    .page .section__title {
-      color: var(--main-text-color);
-    }
   }
+
+  .page {
+    background-image: url(../images/cover-image-light.png);
+  }
+
+  .page .decorate-rec {
+    display: none;
+  }
+
+  .page.theme_dark .decorate-rec {
+    display: block;
+  }
+
+  .page .title-decor {
+    background-color: var(--accent-color);
+    color: var(--main-text-color);
+  }
+
+  .page .section__title {
+    color: var(--main-text-color);
+  }
+}
 
 .page.theme_light {
   --main-text-color: #353430;
@@ -38,7 +39,7 @@
 }
 
 .page.theme_light .decorate-rec {
- display: none;
+  display: none;
 }
 
 .page.theme_light .title-decor {
