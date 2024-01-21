@@ -25,7 +25,7 @@
   padding: 20px;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: 3fr 1fr 3fr;
+  grid-template-rows: 5fr 1fr 5fr;
   grid-auto-flow: column;
   grid-template-areas:
     "a a"
@@ -137,6 +137,7 @@
   font-weight: 700;
   line-height: 82.5%;
   grid-area: b;
+  margin-left: -20px;
 }
 
 .header__text {
@@ -183,6 +184,7 @@
 
 .section__paragraph {
   margin-block-start: 10px;
+  letter-spacing: -0.1px;
 }
 
 .section__paragraph:not(:last-of-type) {
@@ -334,6 +336,10 @@
     margin-block-end: 0;
   }
 
+  .section__paragraph {
+    letter-spacing: normal;
+  }
+
   .picture-container-5 {
     display: block;
   }
@@ -346,6 +352,10 @@
 @media (width <=450px) {
   .header {
     margin-block-end: 40px;
+  }
+
+  .header__title {
+    margin-left: 0;
   }
 
   .decorated-zone {
