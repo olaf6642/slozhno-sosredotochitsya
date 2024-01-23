@@ -12,7 +12,7 @@
     --section-title-color: var(--main-text-color);
   }
 
-  .page .decorate-rec {
+  .page.theme_auto .decorate-rec {
     display: none;
   }
 }
